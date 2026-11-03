@@ -21,6 +21,6 @@ resource "docker_container" "servidor_lab" {
   image = docker_image.nginx.image_id
   ports {
     internal = 80
-    external = 8082
+    external = 8083
   }
 }
